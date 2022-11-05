@@ -9,3 +9,4 @@
 - link:
     ~/.antigen: submodules/antigen
     ~/.zshrc: zsh/zshrc
+    ~/.vimrc: vim/vimrc
