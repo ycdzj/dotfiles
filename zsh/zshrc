@@ -24,5 +24,8 @@ antigen apply
 
 bindkey '^P' history-substring-search-up
 bindkey '^N' history-substring-search-down
-export EDITOR=nvim
-export TZ=Asia/Shanghai
+
+if [ -f ~/.zshrc_local ]; then
+  source ~/.zshrc_local
+fi
+
