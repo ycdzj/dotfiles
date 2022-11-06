@@ -4,3 +4,9 @@
 [submodule "submodules/antigen"]
 	path = submodules/antigen
 	url = https://github.com/zsh-users/antigen.git
+[submodule "submodules/nvim-tree.lua"]
+	path = submodules/nvim-tree.lua
+	url = https://github.com/nvim-tree/nvim-tree.lua.git
+[submodule "submodules/vim-gnupg"]
+	path = submodules/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg.git
