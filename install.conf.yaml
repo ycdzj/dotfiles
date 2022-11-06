@@ -7,9 +7,15 @@
 - shell:
   - ['git submodule update --init --recursive', 'Installing submodules']
 - link:
-    ~/.antigen: submodules/antigen
+    ~/.oh-my-zsh: submodules/ohmyzsh
+    ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search: submodules/zsh-history-substring-search
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: submodules/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: submodules/zsh-autosuggestions
     ~/.zshrc: zsh/zshrc
+
     ~/.vimrc: vim/vimrc
+
     ~/.local/share/nvim/site/pack/nvim-tree.lua/start: submodules/nvim-tree.lua
     ~/.local/share/nvim/site/pack/vim-gnupg/start: submodules/vim-gnupg
     ~/.config/nvim/init.lua: nvim/init.lua
+
