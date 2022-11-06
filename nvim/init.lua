@@ -1,6 +1,8 @@
 -- vim.o.formatoptions = vim.o.formatoptions .. 'mM'
 vim.opt.formatoptions:append('mM')
 vim.o.textwidth = 80
+vim.o.number = true
+vim.o.relativenumber = true
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
