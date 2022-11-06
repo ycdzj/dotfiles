@@ -13,9 +13,11 @@
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: submodules/zsh-autosuggestions
     ~/.zshrc: zsh/zshrc
 
+    ~/.vim/pack/vendor/start/vim-gnupg: submodules/vim-gnupg
+    ~/.vim/pack/vendor/start/tabular: submodules/tabular
+    ~/.vim/pack/vendor/start/vim-markdown: submodules/vim-markdown
     ~/.vimrc: vim/vimrc
 
     ~/.local/share/nvim/site/pack/vendor/start/nvim-tree.lua: submodules/nvim-tree.lua
-    ~/.local/share/nvim/site/pack/vendor/start/vim-gnupg: submodules/vim-gnupg
     ~/.config/nvim/init.lua: nvim/init.lua
 
