@@ -15,7 +15,7 @@
 
     ~/.vimrc: vim/vimrc
 
-    ~/.local/share/nvim/site/pack/nvim-tree.lua/start: submodules/nvim-tree.lua
-    ~/.local/share/nvim/site/pack/vim-gnupg/start: submodules/vim-gnupg
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-tree.lua: submodules/nvim-tree.lua
+    ~/.local/share/nvim/site/pack/vendor/start/vim-gnupg: submodules/vim-gnupg
     ~/.config/nvim/init.lua: nvim/init.lua
 
