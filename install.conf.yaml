@@ -2,10 +2,20 @@
     link:
       relink: true
       create: true
+    shell:
+      stdout: true
+      stderr: true
+
 - clean:
   - '~'
+
 - shell:
-  - ['git submodule update --init --recursive', 'Installing submodules']
+  - command: git submodule update --init --recursive
+    description: Installing submodules
+
+  - command: cd submodules/telescope-fzf-native.nvim && make
+    description: Building telescope-fzf-native.nvim
+
 - link:
     ~/.oh-my-zsh: submodules/ohmyzsh
     ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search: submodules/zsh-history-substring-search
@@ -22,6 +32,9 @@
     ~/.local/share/nvim/site/pack/vendor/start/nvim-tree.lua: submodules/nvim-tree.lua
     ~/.local/share/nvim/site/pack/vendor/start/vim-tmux-navigator: submodules/vim-tmux-navigator
     ~/.local/share/nvim/site/pack/vendor/start/lualine.nvim: submodules/lualine.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/plenary.nvim: submodules/plenary.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/telescope.nvim: submodules/telescope.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/telescope-fzf-native.nvim: submodules/telescope-fzf-native.nvim
     ~/.config/nvim: nvim
 
     ~/.tmux.conf: tmux/tmux.conf
