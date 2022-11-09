@@ -20,6 +20,7 @@
 
     ~/.local/share/nvim/site/pack/vendor/start/vim-moonfly-colors: submodules/vim-moonfly-colors
     ~/.local/share/nvim/site/pack/vendor/start/nvim-tree.lua: submodules/nvim-tree.lua
+    ~/.local/share/nvim/site/pack/vendor/start/vim-tmux-navigator: submodules/vim-tmux-navigator
     ~/.config/nvim: nvim
 
     ~/.tmux.conf: tmux/tmux.conf
