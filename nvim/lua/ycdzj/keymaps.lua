@@ -11,9 +11,6 @@ vim.keymap.set("n", "<leader>ch", ":nohl<CR>")
 vim.keymap.set("n", "x", '"_x')
 
 -- windows
-vim.keymap.set("n", "<leader>v", "<C-w>v")
-vim.keymap.set("n", "<leader>s", "<C-w>s")
-vim.keymap.set("n", "<leader>=", "<C-w>=") -- make split windows equal width & height
 vim.keymap.set("n", "q", ":q<CR>")
 
 -- tabs
