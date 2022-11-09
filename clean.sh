@@ -39,8 +39,7 @@ while true; do
 done
 
 echo "removing..."
-mkdir ~/.trash
 for file in "${files_to_remove[@]}"; do
-    mv --backup=t "$file" ~/.trash
+    rm -rf "$file"
 done
 
