@@ -46,3 +46,6 @@
 [submodule "submodules/telescope-fzf-native.nvim"]
 	path = submodules/telescope-fzf-native.nvim
 	url = https://github.com/nvim-telescope/telescope-fzf-native.nvim.git
+[submodule "submodules/gitsigns.nvim"]
+	path = submodules/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim.git

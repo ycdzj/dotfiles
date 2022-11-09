@@ -35,6 +35,7 @@
     ~/.local/share/nvim/site/pack/vendor/start/plenary.nvim: submodules/plenary.nvim
     ~/.local/share/nvim/site/pack/vendor/start/telescope.nvim: submodules/telescope.nvim
     ~/.local/share/nvim/site/pack/vendor/start/telescope-fzf-native.nvim: submodules/telescope-fzf-native.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/gitsigns.nvim: submodules/gitsigns.nvim
     ~/.config/nvim: nvim
 
     ~/.tmux.conf: tmux/tmux.conf
