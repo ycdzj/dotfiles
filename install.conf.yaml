@@ -38,6 +38,8 @@
     ~/.local/share/nvim/site/pack/vendor/start/gitsigns.nvim: submodules/gitsigns.nvim
     ~/.local/share/nvim/site/pack/vendor/start/nvim-cmp: submodules/nvim-cmp
     ~/.local/share/nvim/site/pack/vendor/start/LuaSnip: submodules/LuaSnip
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-lspconfig: submodules/nvim-lspconfig
+    ~/.local/share/nvim/site/pack/vendor/start/cmp-nvim-lsp: submodules/cmp-nvim-lsp
     ~/.config/nvim: nvim
 
     ~/.tmux.conf: tmux/tmux.conf
