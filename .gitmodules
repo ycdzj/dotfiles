@@ -49,3 +49,9 @@
 [submodule "submodules/gitsigns.nvim"]
 	path = submodules/gitsigns.nvim
 	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "submodules/nvim-cmp"]
+	path = submodules/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp.git
+[submodule "submodules/LuaSnip"]
+	path = submodules/LuaSnip
+	url = https://github.com/L3MON4D3/LuaSnip.git
