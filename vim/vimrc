@@ -7,7 +7,7 @@ set backspace=indent,eol,start
 set mouse+=a
 
 set number relativenumber
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=2 shiftwidth=2 expandtab
 set nowrap
 
 set ignorecase smartcase " Case-insensitive search
