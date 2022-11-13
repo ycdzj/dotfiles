@@ -79,3 +79,6 @@
 [submodule "submodules/indent-blankline.nvim"]
 	path = submodules/indent-blankline.nvim
 	url = https://github.com/lukas-reineke/indent-blankline.nvim.git
+[submodule "submodules/trouble.nvim"]
+	path = submodules/trouble.nvim
+	url = https://github.com/folke/trouble.nvim.git
