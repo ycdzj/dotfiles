@@ -1,3 +1,5 @@
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
 local on_attach = function(client, bufnr)
   local opts = { noremap = true, silent = true }
   vim.keymap.set("n", "ge", vim.diagnostic.open_float, opts)
@@ -14,12 +16,6 @@ local on_attach = function(client, bufnr)
   vim.keymap.set("n", "gf", vim.lsp.buf.format, bufopts)
 end
 
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
--- needed by ufo
-capabilities.textDocument.foldingRange = {
-    dynamicRegistration = false,
-    lineFoldingOnly = true
-}
 local lspconfig = require("lspconfig")
 lspconfig.clangd.setup({
   on_attach = on_attach,
