@@ -1,2 +1,5 @@
+require("scrollbar").setup()
+require("scrollbar.handlers.gitsigns").setup()
 require("scrollbar.handlers.search").setup({ override_lens = function() end })
+require("gitsigns").setup()
 require("hlslens").setup()
