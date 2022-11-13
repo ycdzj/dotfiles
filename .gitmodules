@@ -73,3 +73,6 @@
 [submodule "submodules/nvim-hlslens"]
 	path = submodules/nvim-hlslens
 	url = https://github.com/kevinhwang91/nvim-hlslens.git
+[submodule "submodules/symbols-outline.nvim"]
+	path = submodules/symbols-outline.nvim
+	url = https://github.com/simrat39/symbols-outline.nvim.git
