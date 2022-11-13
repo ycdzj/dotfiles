@@ -76,3 +76,6 @@
 [submodule "submodules/symbols-outline.nvim"]
 	path = submodules/symbols-outline.nvim
 	url = https://github.com/simrat39/symbols-outline.nvim.git
+[submodule "submodules/indent-blankline.nvim"]
+	path = submodules/indent-blankline.nvim
+	url = https://github.com/lukas-reineke/indent-blankline.nvim.git

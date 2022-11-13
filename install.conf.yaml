@@ -45,6 +45,7 @@
     ~/.local/share/nvim/site/pack/vendor/start/nvim-scrollbar: submodules/nvim-scrollbar
     ~/.local/share/nvim/site/pack/vendor/start/nvim-hlslens: submodules/nvim-hlslens
     ~/.local/share/nvim/site/pack/vendor/start/symbols-outline.nvim: submodules/symbols-outline.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/indent-blankline.nvim: submodules/indent-blankline.nvim
     ~/.config/nvim: nvim
 
     ~/.tmux.conf: tmux/tmux.conf
