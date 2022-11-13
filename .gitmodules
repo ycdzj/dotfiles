@@ -76,3 +76,9 @@
 [submodule "submodules/symbols-outline.nvim"]
 	path = submodules/symbols-outline.nvim
 	url = https://github.com/simrat39/symbols-outline.nvim.git
+[submodule "submodules/nvim-ufo"]
+	path = submodules/nvim-ufo
+	url = https://github.com/kevinhwang91/nvim-ufo.git
+[submodule "submodules/promise-async"]
+	path = submodules/promise-async
+	url = https://github.com/kevinhwang91/promise-async.git
