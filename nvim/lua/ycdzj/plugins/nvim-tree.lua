@@ -12,6 +12,15 @@ require("nvim-tree").setup({
   },
 
   view = {
+    adaptive_size = true,
+    float = {
+      enable = true,
+      open_win_config = {
+        height = 200,
+        row = 0,
+        col = 0,
+      }
+    },
     mappings = {
       list = {
         { key = "u", action = "dir_up" }, -- press u to go to upper directory

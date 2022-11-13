@@ -1,1 +1,13 @@
-require("telescope").load_extension("fzf")
+telescope = require("telescope")
+actions = require("telescope.actions")
+telescope.setup({
+  defaults = {
+    mappings = {
+      i = {
+        ["<C-k>"] = actions.move_selection_previous,
+        ["<C-j>"] = actions.move_selection_next,
+      }
+    }
+  }
+})
+telescope.load_extension("fzf")
