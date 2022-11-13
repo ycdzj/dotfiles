@@ -16,6 +16,8 @@ vim.keymap.set("n", "<leader>v", "<cmd>vsplit<cr>", opt)
 vim.keymap.set("n", "<leader>s", "<cmd>split<cr>", opt)
 -- outline
 vim.keymap.set("n", "<leader>o", "<cmd>LSoutlineToggle<cr>", opt)
+-- clear search
+vim.keymap.set("n", "<leader>h", "<cmd>nohls<cr>", opt)
 
 -- g key
 vim.keymap.set("n", "gf", vim.lsp.buf.format)
@@ -26,7 +28,6 @@ vim.keymap.set("n", "gr", "<cmd>Lspsaga rename<cr>", opt)
 -- gc key
 vim.keymap.set({ "n", "v" }, "gca", "<cmd>Lspsaga code_action<cr>", opt)
 vim.keymap.set("n", "gcd", "<cmd>Lspsaga show_line_diagnostics<cr>", opt)
-vim.keymap.set("n", "gcd", "<cmd>Lspsaga show_cursor_diagnostics<cr>", opt)
 
 -- `[` and `]` key
 vim.keymap.set("n", "[e", "<cmd>Lspsaga diagnostic_jump_prev<cr>", opt)

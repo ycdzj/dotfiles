@@ -13,14 +13,6 @@ require("nvim-tree").setup({
 
   view = {
     adaptive_size = true,
-    float = {
-      enable = true,
-      open_win_config = {
-        height = 200,
-        row = 0,
-        col = 0,
-      },
-    },
     mappings = {
       list = {
         { key = "u", action = "dir_up" }, -- press u to go to upper directory
@@ -42,8 +34,8 @@ require("nvim-tree").setup({
     },
     icons = {
       show = {
-        file = false,
-        folder = false,
+        -- file = false,
+        -- folder = false,
         folder_arrow = false,
         git = false,
       },
