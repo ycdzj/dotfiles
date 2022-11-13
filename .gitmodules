@@ -64,3 +64,6 @@
 [submodule "submodules/nvim-autopairs"]
 	path = submodules/nvim-autopairs
 	url = https://github.com/windwp/nvim-autopairs.git
+[submodule "submodules/nvim-treesitter"]
+	path = submodules/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git

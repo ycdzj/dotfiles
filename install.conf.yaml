@@ -41,6 +41,7 @@
     ~/.local/share/nvim/site/pack/vendor/start/nvim-lspconfig: submodules/nvim-lspconfig
     ~/.local/share/nvim/site/pack/vendor/start/cmp-nvim-lsp: submodules/cmp-nvim-lsp
     ~/.local/share/nvim/site/pack/vendor/start/nvim-autopairs: submodules/nvim-autopairs
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-treesitter: submodules/nvim-treesitter
     ~/.config/nvim: nvim
 
     ~/.tmux.conf: tmux/tmux.conf
