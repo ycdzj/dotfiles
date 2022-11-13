@@ -67,3 +67,9 @@
 [submodule "submodules/nvim-treesitter"]
 	path = submodules/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "submodules/nvim-scrollbar"]
+	path = submodules/nvim-scrollbar
+	url = https://github.com/petertriho/nvim-scrollbar.git
+[submodule "submodules/nvim-hlslens"]
+	path = submodules/nvim-hlslens
+	url = https://github.com/kevinhwang91/nvim-hlslens.git
