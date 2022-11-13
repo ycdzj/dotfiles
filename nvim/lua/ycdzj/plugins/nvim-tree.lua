@@ -19,7 +19,7 @@ require("nvim-tree").setup({
         height = 200,
         row = 0,
         col = 0,
-      }
+      },
     },
     mappings = {
       list = {
