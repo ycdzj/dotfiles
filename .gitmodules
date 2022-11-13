@@ -82,3 +82,6 @@
 [submodule "submodules/trouble.nvim"]
 	path = submodules/trouble.nvim
 	url = https://github.com/folke/trouble.nvim.git
+[submodule "submodules/lspsaga.nvim"]
+	path = submodules/lspsaga.nvim
+	url = https://github.com/glepnir/lspsaga.nvim.git

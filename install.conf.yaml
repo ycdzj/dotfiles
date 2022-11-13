@@ -17,36 +17,45 @@
     description: Building telescope-fzf-native.nvim
 
 - link:
+    # zsh
     ~/.oh-my-zsh: submodules/ohmyzsh
     ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search: submodules/zsh-history-substring-search
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: submodules/zsh-syntax-highlighting
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: submodules/zsh-autosuggestions
     ~/.zshrc: zsh/zshrc
 
+    # vim
     ~/.vim/pack/vendor/start/vim-gnupg: submodules/vim-gnupg
     ~/.vim/pack/vendor/start/tabular: submodules/tabular
     ~/.vim/pack/vendor/start/vim-markdown: submodules/vim-markdown
     ~/.vimrc: vim/vimrc
 
-    ~/.local/share/nvim/site/pack/vendor/start/vim-moonfly-colors: submodules/vim-moonfly-colors
-    ~/.local/share/nvim/site/pack/vendor/start/nvim-tree.lua: submodules/nvim-tree.lua
-    ~/.local/share/nvim/site/pack/vendor/start/vim-tmux-navigator: submodules/vim-tmux-navigator
-    ~/.local/share/nvim/site/pack/vendor/start/lualine.nvim: submodules/lualine.nvim
+    # neovim
     ~/.local/share/nvim/site/pack/vendor/start/plenary.nvim: submodules/plenary.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/vim-moonfly-colors: submodules/vim-moonfly-colors
+    ~/.local/share/nvim/site/pack/vendor/start/vim-tmux-navigator: submodules/vim-tmux-navigator
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-tree.lua: submodules/nvim-tree.lua
+    ~/.local/share/nvim/site/pack/vendor/start/lualine.nvim: submodules/lualine.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-autopairs: submodules/nvim-autopairs
+
     ~/.local/share/nvim/site/pack/vendor/start/telescope.nvim: submodules/telescope.nvim
     ~/.local/share/nvim/site/pack/vendor/start/telescope-fzf-native.nvim: submodules/telescope-fzf-native.nvim
+
     ~/.local/share/nvim/site/pack/vendor/start/gitsigns.nvim: submodules/gitsigns.nvim
-    ~/.local/share/nvim/site/pack/vendor/start/nvim-cmp: submodules/nvim-cmp
-    ~/.local/share/nvim/site/pack/vendor/start/LuaSnip: submodules/LuaSnip
-    ~/.local/share/nvim/site/pack/vendor/start/nvim-lspconfig: submodules/nvim-lspconfig
-    ~/.local/share/nvim/site/pack/vendor/start/cmp-nvim-lsp: submodules/cmp-nvim-lsp
-    ~/.local/share/nvim/site/pack/vendor/start/nvim-autopairs: submodules/nvim-autopairs
-    ~/.local/share/nvim/site/pack/vendor/start/nvim-treesitter: submodules/nvim-treesitter
-    ~/.local/share/nvim/site/pack/vendor/start/nvim-scrollbar: submodules/nvim-scrollbar
     ~/.local/share/nvim/site/pack/vendor/start/nvim-hlslens: submodules/nvim-hlslens
-    ~/.local/share/nvim/site/pack/vendor/start/symbols-outline.nvim: submodules/symbols-outline.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-scrollbar: submodules/nvim-scrollbar
+
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-lspconfig: submodules/nvim-lspconfig
+
+    ~/.local/share/nvim/site/pack/vendor/start/LuaSnip: submodules/LuaSnip
+    ~/.local/share/nvim/site/pack/vendor/start/cmp-nvim-lsp: submodules/cmp-nvim-lsp
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-cmp: submodules/nvim-cmp
+
+    ~/.local/share/nvim/site/pack/vendor/start/lspsaga.nvim: submodules/lspsaga.nvim
+
+    ~/.local/share/nvim/site/pack/vendor/start/nvim-treesitter: submodules/nvim-treesitter
     ~/.local/share/nvim/site/pack/vendor/start/indent-blankline.nvim: submodules/indent-blankline.nvim
-    ~/.local/share/nvim/site/pack/vendor/start/trouble.nvim: submodules/trouble.nvim
     ~/.config/nvim: nvim
 
+    # tmux
     ~/.tmux.conf: tmux/tmux.conf
