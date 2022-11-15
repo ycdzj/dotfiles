@@ -53,6 +53,7 @@
 
     ~/.local/share/nvim/site/pack/vendor/start/lspsaga.nvim: submodules/lspsaga.nvim
     ~/.local/share/nvim/site/pack/vendor/start/fidget.nvim: submodules/fidget.nvim
+    ~/.local/share/nvim/site/pack/vendor/start/lsp_signature.nvim: submodules/lsp_signature.nvim
 
     ~/.local/share/nvim/site/pack/vendor/start/nvim-treesitter: submodules/nvim-treesitter
     ~/.local/share/nvim/site/pack/vendor/start/indent-blankline.nvim: submodules/indent-blankline.nvim

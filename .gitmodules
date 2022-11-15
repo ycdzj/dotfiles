@@ -88,3 +88,6 @@
 [submodule "submodules/fidget.nvim"]
 	path = submodules/fidget.nvim
 	url = https://github.com/j-hui/fidget.nvim.git
+[submodule "submodules/lsp_signature.nvim"]
+	path = submodules/lsp_signature.nvim
+	url = https://github.com/ray-x/lsp_signature.nvim.git
