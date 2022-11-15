@@ -20,7 +20,7 @@ vim.keymap.set("n", "<leader>o", "<cmd>LSoutlineToggle<cr>", opt)
 vim.keymap.set("n", "<leader>h", "<cmd>nohls<cr>", opt)
 
 -- g key
-vim.keymap.set("n", "gf", vim.lsp.buf.format)
+vim.keymap.set("n", "gf", vim.lsp.buf.formatting)
 vim.keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<cr>", opt)
 vim.keymap.set("n", "gd", "<cmd>Lspsaga peek_definition<cr>", opt)
 vim.keymap.set("n", "gr", "<cmd>Lspsaga rename<cr>", opt)

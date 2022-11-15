@@ -1,6 +1,7 @@
 require("nvim-treesitter.configs").setup({
-  ensure_installed = { "c", "lua", "cpp", "markdown", "jsonc", "vim", "bash" },
-  sync_install = true,
+  -- ensure_installed = { "c", "lua", "cpp", "markdown", "jsonc", "vim", "bash" },
+  ensure_installed = {},
+  sync_install = false,
   auto_install = true,
   highlight = {
     enable = true,
