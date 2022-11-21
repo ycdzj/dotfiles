@@ -91,3 +91,6 @@
 [submodule "submodules/lsp_signature.nvim"]
 	path = submodules/lsp_signature.nvim
 	url = https://github.com/ray-x/lsp_signature.nvim.git
+[submodule "submodules/zsh-vi-mode"]
+	path = submodules/zsh-vi-mode
+	url = https://github.com/jeffreytse/zsh-vi-mode
