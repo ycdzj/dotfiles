@@ -29,7 +29,8 @@
     ~/.vim/pack/vendor/start/vim-gnupg: submodules/vim-gnupg
     ~/.vim/pack/vendor/start/tabular: submodules/tabular
     ~/.vim/pack/vendor/start/vim-markdown: submodules/vim-markdown
-    ~/.vimrc: vim/vimrc
+    ~/.vim/pack/vendor/start/vim-tmux-navigator: submodules/vim-tmux-navigator
+    ~/.vim/vimrc: vim/vimrc
 
     # neovim
     ~/.local/share/nvim/site/pack/vendor/start/plenary.nvim: submodules/plenary.nvim

@@ -19,4 +19,18 @@ set formatoptions+=mM
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_math = 1
 
+let g:tmux_navigator_no_wrap = 1
+
+" keybindings
 nnoremap q <nop>
+noremap <C-c> <nop>
+let mapleader = " "
+nnoremap <leader>q <cmd>q<cr>
+
+function s:sourceAnotherFile(path)
+  if !empty(glob(a:path))
+    exec "source " . a:path
+  endif
+endfunction
+
+call s:sourceAnotherFile("~/.vim/vimrc_local")
