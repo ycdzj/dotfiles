@@ -13,5 +13,10 @@ set nowrap
 set ignorecase smartcase " Case-insensitive search
 set incsearch " Searching as you type
 
+set textwidth=80
+set formatoptions+=mM
+
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_math = 1
+
+nnoremap q <nop>

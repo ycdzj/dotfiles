@@ -49,3 +49,5 @@ end, opt)
 vim.keymap.set("n", "K", "<cmd>Lspsaga hover_doc<cr>", opt)
 -- x to delete single character without yanking
 vim.keymap.set("n", "x", '"_x', opt)
+-- disable q key
+vim.keymap.set("n", "q", "<nop>", opt)
