@@ -3,3 +3,6 @@ local lspconfig = require("lspconfig")
 lspconfig.clangd.setup({
   capabilities = capabilities,
 })
+lspconfig.gopls.setup({
+  capabilities = capabilities,
+})

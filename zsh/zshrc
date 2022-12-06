@@ -1,6 +1,6 @@
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
-ZSH_THEME="ys"
+ZSH_THEME="af-magic"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 plugins=(git fzf zsh-vi-mode zsh-history-substring-search zsh-autosuggestions zsh-syntax-highlighting)
